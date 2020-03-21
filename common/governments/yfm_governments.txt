@@ -55,33 +55,3 @@ gov_yfm_megarestaurant = {
 		base = 1000
 	}
 }
-
-gov_yfm_drug_cartel = {
-	ruler_title = RT_BOSS
-	
-	should_force_rename = yes
-	
-	leader_class = general
-	
-	election_candidates = {
-		modifier = {
-			add = 100
-			leader_class = ruler
-		}
-		modifier = {
-			add = 10
-			OR = {
-				leader_class = scientist
-				leader_class = general
-			}
-		}
-	}
-	possible = {
-		has_authority = auth_corporate
-		has_valid_civic = civic_yfm_pharmaceutical_manufacturing
-		has_valid_civic = civic_criminal_heritage
-	}
-	weight = {
-		base = 1800
-	}
-}
