@@ -114,12 +114,12 @@ building_yfm_drug_den = {
 	branch_office_building = yes
 	potential = {
 		has_branch_office = yes
-#		branch_office_owner = {
-#			AND = {
-#				has_valid_civic = civic_yfm_pharmaceutical_manufacturing
-#				is_criminal_syndicate = yes
-#			}
-#		}
+		branch_office_owner = {
+			AND = {
+				has_valid_civic = civic_yfm_pharmaceutical_manufacturing
+				is_criminal_syndicate = yes
+			}
+		}
 	}
 	planet_modifier = {
 		planet_crime_add = 25
