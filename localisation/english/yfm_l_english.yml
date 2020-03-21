@@ -16,6 +16,14 @@ civic_yfm_pharmaceutical_manufacturing: "Pharmaceutical Manufacturing"
 civic_yfm_pharmaceutical_manufacturing_desc: "A large portion of this megacorporation's industries involve the production of medications and drugs."
 civic_tooltip_yfm_pharmaceutical_manufacturing_effects: ""
 
+civic_yfm_nepotism: "Nepotism"
+civic_yfm_nepotism_desc: "The quickest way to wealth is to be related to someone with it."
+civic_tooltip_yfm_nepotism_effects: ""
+
+civic_yfm_paralegals: "Paralegals"
+civic_yfm_paralegals_desc: "Lawyers are everywhere in this megacorp, which got its start as a massive law firm. It controls the entire legal system, from judges, to attorneys for both sides of arbitration."
+civic_tooltip_yfm_paralegals_effects: ""
+
 ######################################
 ### Megacorp Expansion Governments ###
 ######################################
@@ -35,6 +43,9 @@ gov_yfm_performance_troupe_desc:0 "This megacorporation prides itself on providi
 gov_yfm_military_academy:0 "Military Mega-academy"
 gov_yfm_military_academy_desc:0 "This megaschool is the premier in education for future military officers galaxy-wide."
 
+gov_yfm_law_firm:0 "Law Firm"
+gov_yfm_law_firm_desc:0 "Ruled over by lawyers and renting out its lesser associates to the services of the greater galaxy, this megacorp dresses cleanly and has a sensible haircut."
+
 #######################################
 ### Megacorp Expansion Ruler Titles ###
 #######################################
@@ -44,6 +55,7 @@ RT_YFM_HEADMASTER:0 "Headmaster"
 RT_YFM_HEADMISTRESS:0 "Headmistress"
 RT_YFM_PRODUCER:0 "Producer"
 RT_EDUCATOR_GENERAL:0 "Educator-General"
+RT_ARBITER_ATTORNEY:0 "Arbiter-Attorney"
 
 ####################################
 ### Megacorp Expansion Buildings ###

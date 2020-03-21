@@ -121,3 +121,27 @@ gov_yfm_military_academy = {
 		base = 1400
 	}
 }
+
+gov_yfm_law_firm = {
+	ruler_title = RT_ARBITER_ATTORNEY
+	ruler_title_female = RT_ARBITER_ATTORNEY
+	
+	should_force_rename = yes
+	
+	election_candidates = {
+		modifier = {
+			add = 100
+			OR = {
+				leader_class = ruler
+				leader_class = general
+			}
+		}
+	}
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_yfm_paralegals
+	}
+	weight = {
+		base = 1500
+	}
+}
