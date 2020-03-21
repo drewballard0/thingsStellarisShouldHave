@@ -1,0 +1,7 @@
+﻿l_default:
+ format.mschool.1: "[This.Capital.System.GetName] <yfm_mschool_adj> <yfm_mschool_school>"
+ format.mschool.2: "<yfm_mschool_adj> <yfm_mschool_school> <yfm_mschool_study>"
+ format.mschool.3: "St. [This.GetRulerName] <yfm_mschool_school> <yfm_mschool_study>"
+ format.mfood.1: "[This.GetRulerName]'s <yfm_mfood_type>"
+ format.mfood.2: "The <yfm_mfood_attribute> <yfm_mfood_thing>"
+ format.mfood.3: "Chateau de [This.Capital.System.GetName]"

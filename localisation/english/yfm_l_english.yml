@@ -1,0 +1,100 @@
+﻿l_english:
+
+#################################
+### Megacorp Expansion Civics ###
+#################################
+
+civic_yfm_educational_institutions: "Educational Institutions"
+civic_yfm_educational_institutions_desc: "This megacorporation began its life as a private educational institution, first buying up other schools, and then expanding into other industries."
+civic_tooltip_yfm_educational_institutions_effects: "§Y$society_research$§! from £job£ Jobs: §G+10%§!\n§Y$physics_research$§! from £job£ Jobs: §G+10%§!\n§Y$engineering_research$§! from £job£ Jobs: §G+10%§!\nCan build §YCampus§! buildings which produce
+
+civic_yfm_culinary_arts: "Culinary Arts"
+civic_yfm_culinary_arts_desc: "This megacorporation has a significant focus on franchising high-end restaurants, minimizing expenses through a farm-to-table monopoly."
+civic_tooltip_yfm_culinary_arts_effects: "§Y$food$§! from £job£ Jobs: §G+25%§!\nNon-§YXenophile§! Empires always have §YLivestock§! slavery type."
+
+civic_yfm_pharmaceutical_manufacturing: "Pharmaceutical Manufacturing"
+civic_yfm_pharmaceutical_manufacturing_desc: "A large portion of this megacorporation's industries involve the production of medications and drugs."
+civic_tooltip_yfm_pharmaceutical_manufacturing_effects: ""
+
+######################################
+### Megacorp Expansion Governments ###
+######################################
+
+gov_yfm_megaschool:0 "Megaschool"
+gov_yfm_megaschool_desc:0 "A massive university, educating its citizens and those of its partner empires at all levels, preschool to post-secondary."
+
+gov_yfm_megarestaurant:0 "Megarestaurant"
+gov_yfm_megarestaurant_desc:0 "A galactic-scale restaurant chain that specializes in high-end cuisine."
+
+gov_yfm_drug_cartel:0 "Drug Cartel"
+gov_yfm_drug_cartel_desc:0 "A galactic-scale drug cartel, slinging their stuff under the noses of the authorities."
+
+
+
+#######################################
+### Megacorp Expansion Ruler Titles ###
+#######################################
+
+RT_YFM_EXECUTIVE_CHEF:0 "Executive Chef"
+RT_YFM_HEADMASTER:0 "Headmaster"
+RT_YFM_HEADMISTRESS:0 "Headmistress"
+
+####################################
+### Megacorp Expansion Buildings ###
+####################################
+
+building_yfm_private_campus:0 "Private Campus"
+building_yfm_private_campus_desc:0 "A campus of an offworld megaschool. While it saves money for the host empire, their youth could easily be trained away from dominant ethics."
+
+building_yfm_high_end_restaurant:0 "High-End Restaurant"
+building_yfm_high_end_restaurant_desc:0 "A restaurant frequented by wealthy citizens desiring less-than-full portions of expensive, but debatably tasty, food."
+
+building_yfm_pharmacy:0 "Pharmacy"
+building_yfm_pharmacy_desc:0 ""
+
+building_yfm_drug_den:0 "Drug Den"
+building_yfm_drug_den_desc:0 ""
+
+###############################
+### Megacorp Expansion Jobs ###
+###############################
+
+job_yfm_chef:0 "Chef"
+job_yfm_chef_plural:0 "Chefs"
+job_yfm_chef_desc:0 "Chefs provide both hospitality and good food to customers at their restaurant."
+job_yfm_chef_effect_desc:0 "£job_yfm_chef£ $job_yfm_chef_plural$ produce £food£$food$ and £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!."
+mod_job_yfm_chef_add:0 "$job_yfm_chef$ Jobs"
+mod_job_yfm_chef_per_pop:0 "§G+1§! $job_yfm_chef$ Job per $VALUE$ Pops"
+mod_job_yfm_chef_per_pop_short:0 "\n§G+1§! £mod_job_yfm_chef_add£ per $VALUE$ £pop£"
+
+job_yfm_faculty:0 "Faculty"
+job_yfm_faculty_plural:0 "Faculty"
+job_yfm_faculty_desc:0 "Faculty teach the youth of the planet valuable skills, and priceless ethics."
+job_yfm_faculty_effect_desc:0 "£job_yfm_faculty£ $job_yfm_faculty_plural$ produce £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! and £society££physics££engineering£ §YResearch§!"
+mod_job_yfm_faculty_add:0 "$job_yfm_faculty$ Jobs"
+mod_job_yfm_faculty_per_pop:0 "§G+1§! $job_yfm_faculty$ Job per $VALUE$ Pops"
+mod_job_yfm_faculty_per_pop_short:0 "\n§G+1§! £mod_job_yfm_faculty_add£ per $VALUE$ £pop£"
+
+job_yfm_student:0 "Student"
+job_yfm_student_plural:0 "Students"
+job_yfm_student_desc:0 "Students learn from their teachers, but often teach the teachers too."
+job_yfm_student_effect_desc:0 "£job_yfm_student£ $job_yfm_student_plural$ produce £society££physics££engineering£ §YResearch§!"
+mod_job_yfm_student_add:0 "$job_yfm_student$ Jobs"
+mod_job_yfm_student_per_pop:0 "§G+1§! $job_yfm_student$ Job per $VALUE$ Pops"
+mod_job_yfm_student_per_pop_short:0 "\n§G+1§! £mod_job_yfm_student_add£ per $VALUE$ £pop£"
+
+
+
+###################################
+### Megacorp Expansion Tooltips ###
+###################################
+
+too_stupid:0 "This species is simply not intelligent enough to give full rights to."
+
+
+##############################################
+### Megacorp Expansion Bombardment Stances ###
+##############################################
+
+bombardment_yfm_enrollment:0 "Forcible Enrollment"
+bombardment_yfm_enrollment_desc:0 "They will receive a proper education, whether they like it or not. Abducts Pops."

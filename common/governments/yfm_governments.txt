@@ -1,0 +1,87 @@
+gov_yfm_megaschool = {
+	ruler_title = RT_YFM_HEADMASTER
+	ruler_title_female = RT_YFM_HEADMISTRESS
+	
+	should_force_rename = yes
+	
+	leader_class = scientist
+	
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = scientist
+		}
+	}
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_yfm_educational_institutions
+	}
+	weight = {
+		base = 1000
+	}
+}
+
+gov_yfm_megarestaurant = {
+	ruler_title = RT_YFM_EXECUTIVE_CHEF
+	ruler_title_female = RT_YFM_EXECUTIVE_CHEF
+	
+	should_force_rename = yes
+	
+	leader_class = ruler
+	
+	election_candidates	= {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			OR = {
+				leader_class = scientist
+				leader_class = admiral
+				leader_class = general
+			}
+		}
+	}
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_yfm_culinary_arts
+	}
+	weight = {
+		base = 1000
+	}
+}
+
+gov_yfm_drug_cartel = {
+	ruler_title = RT_BOSS
+	
+	should_force_rename = yes
+	
+	leader_class = general
+	
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			OR = {
+				leader_class = scientist
+				leader_class = general
+			}
+		}
+	}
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_yfm_pharmaceutical_manufacturing
+		has_valid_civic = civic_criminal_heritage
+	}
+	weight = {
+		base = 1800
+	}
+}

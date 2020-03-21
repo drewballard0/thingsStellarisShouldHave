@@ -1,0 +1,95 @@
+#################################
+### MegaCorp Expansion Civics ###
+#################################
+
+civic_yfm_educational_institutions = { # Educational Institutions
+	potential = { authority = { value = auth_corporate } }
+	possible = {
+		civics = {
+			NOT = {
+				value = civic_gospel_of_the_masses
+				value = civic_yfm_culinary_arts
+				value = civic_criminal_heritage
+			}
+		}
+		ethics = {
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist
+			}
+		}
+	}
+	modification = no
+	random_weight = {
+		base = 5
+		modifier = {
+			factor = 0
+			NOT = { host_has_dlc = "MegaCorp" }
+		}
+		modifier = {
+			# civic has no effect after galaxy generation, disable for random generation
+			factor = 0
+			has_global_flag = game_started
+		}
+	}
+	modifier = {
+		planet_jobs_physics_research_produces_mult = 0.10
+		planet_jobs_society_research_produces_mult = 0.10
+		planet_jobs_engineering_research_produces_mult = 0.10
+	}
+	traits = {
+		trait = trait_intelligent
+	}
+	description = civic_tooltip_yfm_educational_institutions_effects
+}
+
+civic_yfm_culinary_arts = { # Culinary Arts
+	potential = { authority = { value = auth_corporate } }
+	possible = {
+		civics = {
+			NOT = {
+				value = civic_gospel_of_the_masses
+				value = civic_yfm_educational_institutions
+				value = civic_criminal_heritage
+			}
+		}
+	}
+	modification = yes
+	random_weight = {
+		base = 5
+		modifier = {
+			factor = 0
+			NOT = { host_has_dlc = "MegaCorp" }
+		}
+	}
+	modifier = {
+		planet_jobs_food_produces_mult = 0.25
+	}
+	description = civic_tooltip_yfm_culinary_arts_effects
+}
+
+civic_yfm_pharmaceutical_manufacturing = { # Pharmaceutical Manufacturing
+	potential = { authority = { value = auth_corporate } }
+	possible = {
+		civics = {
+			NOT = {
+				value = civic_yfm_educational_institutions
+				value = civic_yfm_culinary_arts
+			}
+		}
+	}
+	modification = yes
+	random_weight = {
+		base = 5
+		modifier = {
+			factor = 0
+			NOT = { host_has_dlc = "MegaCorp" }
+		}
+	}
+	modifier = {
+		planet_pop_growth_speed_mult = 0.10
+		pop_amenities_usage_mult = -0.1
+	}
+	description = civic_tooltip_yfm_pharmaceutical_manufacturing_effects
+}

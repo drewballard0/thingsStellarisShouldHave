@@ -1,0 +1,107 @@
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			OR = { has_government = "gov_yfm_megaschool" }
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.mschool.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesAdj] <yfm_mschool_type>"
+	# Empire of Sol
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			OR = { has_government = "gov_yfm_megaschool" }
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.mschool.2"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesAdj] <yfm_mschool_type>"
+	# Empire of Sol
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			OR = { has_government = "gov_yfm_megaschool" }
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.mschool.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesAdj] <yfm_mschool_type>"
+	# Empire of Sol
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			OR = { has_government = "gov_yfm_megarestaurant" }
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.mfood.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesAdj] <yfm_mfood_type>"
+	# Empire of Sol
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			OR = { has_government = "gov_yfm_megarestaurant" }
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.mfood.2"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesAdj] <yfm_mfood_type>"
+	# Empire of Sol
+}
+
+empire_name_format = { 
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			OR = { has_government = "gov_yfm_megarestaurant" }
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.mfood.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesAdj] <yfm_mfood_type>"
+	# Empire of Sol
+}

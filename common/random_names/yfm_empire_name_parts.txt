@@ -1,0 +1,70 @@
+﻿empire_name_parts_list = {
+	key = "yfm_mschool_type"
+	parts = {
+		"College" = 1
+		"University"  = 1
+		"Conservatory" = 1
+		"School" = 1
+	}
+}
+
+empire_name_parts_list = {
+	key = "yfm_mschool_school"
+	parts = {
+		"College" = 1
+		"University"  = 1
+		"Conservatory" = 1
+		"School" = 1
+	}
+}
+
+empire_name_parts_list = {
+	key = "yfm_mschool_study"
+	parts = {
+		"of the Arts" = 1
+		"of the Sciences" = 1
+		"of Philosophy" = 1
+		"of the Universe" = 1
+		"for the Gifted" = 1
+	}
+}
+
+empire_name_parts_list = {
+	key = "yfm_mschool_adj"
+	parts = {
+		"Interstellar" = 1
+		"Galactic" = 1
+	}
+}
+
+empire_name_parts_list = {
+	key = "yfm_mfood_type"
+	parts = {
+		"Deli" = 1
+		"Bar & Grill" = 1
+		"Roadhouse" = 1
+		"Bistro" = 1
+	}
+}
+
+empire_name_parts_list = {
+	key = "yfm_mfood_attribute"
+	parts = {
+		"Fat" = 1
+		"Chubby" = 1
+		"Swearing" = 1
+		"Twisted" = 1
+		"Chewy" = 1
+		"Tumbling" = 1
+	}
+}
+
+empire_name_parts_list = {
+	key = "yfm_mfood_thing"
+	parts = {
+		"Huntsman" = 1
+		"Steak" = 1
+		"Chalice" = 1
+		"Basket" = 1
+	}
+}

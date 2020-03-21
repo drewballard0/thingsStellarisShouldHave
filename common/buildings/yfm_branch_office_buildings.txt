@@ -1,0 +1,141 @@
+building_yfm_private_campus = {
+	base_buildtime = 480
+	base_cap_amount = 1
+	
+	branch_office_building = yes
+	
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { has_valid_civic = civic_yfm_educational_institutions }
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+	
+	planet_modifier = {
+		job_yfm_faculty_add = 1
+		job_yfm_student_add = 2
+		pop_ethic_materialist_attraction_mult = 0.5
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			physics_research = 6
+			engineering_research = 6
+			society_research = 6
+			unity = 2
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	ai_weight = {
+		weight = 3
+	}
+}
+
+building_yfm_high_end_restaurant = {
+	base_buildtime = 480
+	base_cap_amount = 1
+	
+	branch_office_building = yes
+	
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = { has_valid_civic = civic_yfm_culinary_arts }
+		branch_office_owner = { is_criminal_syndicate = no }
+	}
+	
+	planet_modifier = {
+		job_yfm_chef_add = 1
+		job_farmer_add = 1
+	}
+	
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			food = 8
+			unity = 3
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	ai_weight = {
+		weight = 3
+	}
+}
+
+building_yfm_pharmacy = {
+	base_buildtime = 480
+	base_cap_amount = 1
+	
+	branch_office_building = yes
+	
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			AND = {
+				has_valid_civic = civic_yfm_pharmaceutical_manufacturing
+				is_criminal_syndicate = no
+			}
+		}
+	}
+	planet_modifier = {
+		job_healthcare_add = 2
+	}
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			consumer_goods = 7
+			society_research = 3
+		}
+		upkeep = {
+			energy = 3
+		}
+	ai_weight = {
+		weight = 3
+	}
+}
+building_yfm_drug_den = {
+	base_buildtime = 480
+	base_cap_amount = 1
+	
+	branch_office_building = yes
+	potential = {
+		has_branch_office = yes
+#		branch_office_owner = {
+#			AND = {
+#				has_valid_civic = civic_yfm_pharmaceutical_manufacturing
+#				is_criminal_syndicate = yes
+#			}
+#		}
+	}
+	planet_modifier = {
+		planet_crime_add = 25
+		trade_value_add = 5
+	}
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			minerals = 500
+		}
+		produces = {
+			consumer_goods = 7
+			physics_research = 3
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+}
