@@ -26,6 +26,8 @@ empire_name_parts_list = {
 		"of Philosophy" = 1
 		"of the Universe" = 1
 		"for the Gifted" = 1
+		"of History" = 1
+		"of Galactic Studies" = 1
 	}
 }
 
@@ -34,6 +36,8 @@ empire_name_parts_list = {
 	parts = {
 		"Interstellar" = 1
 		"Galactic" = 1
+		"Star" = 1
+		"Universal" = 1
 	}
 }
 
@@ -44,6 +48,9 @@ empire_name_parts_list = {
 		"Bar & Grill" = 1
 		"Roadhouse" = 1
 		"Bistro" = 1
+		"Cantina" = 1
+		"Tavern" = 1
+		"Diner" = 1
 	}
 }
 
@@ -56,6 +63,9 @@ empire_name_parts_list = {
 		"Twisted" = 1
 		"Chewy" = 1
 		"Tumbling" = 1
+		"Dusty" = 1
+		"Tattered" = 1
+		"Colby" = 1
 	}
 }
 
@@ -66,5 +76,8 @@ empire_name_parts_list = {
 		"Steak" = 1
 		"Chalice" = 1
 		"Basket" = 1
+		"Turncoat" = 1
+		"Preacher" = 1
+		"Shepherd" = 1
 	}
 }

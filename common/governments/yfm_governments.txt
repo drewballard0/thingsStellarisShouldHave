@@ -21,7 +21,7 @@ gov_yfm_megaschool = {
 		has_valid_civic = civic_yfm_educational_institutions
 	}
 	weight = {
-		base = 1000
+		base = 1300
 	}
 }
 
@@ -53,5 +53,71 @@ gov_yfm_megarestaurant = {
 	}
 	weight = {
 		base = 1000
+	}
+}
+
+gov_yfm_performance_troupe = {
+	ruler_title = RT_YFM_PRODUCER
+	ruler_title_female = RT_YFM_PRODUCER
+	
+	should_force_rename = yes
+	
+	leader_class = ruler
+	
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 100
+			OR = {
+				leader_class = scientist
+				leader_class = admiral
+				leader_class = general
+			}
+		}
+	}
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_media_conglomerate
+		has_valid_civic = civic_free_traders
+	}
+	weight = {
+		base = 1300
+	}
+}
+
+gov_yfm_military_academy = {
+	ruler_title = RT_EDUCATOR_GENERAL
+	ruler_title_female = RT_EDUCATOR_GENERAL
+	
+	should_force_rename = yes
+	
+	leader_class = ruler
+	
+	election_candidates = {
+		modifier = {
+			add = 100
+			OR = {
+				leader_class = admiral
+				leader_class = general
+			}
+		}
+		modifier = {
+			add = 50
+			leader_class = ruler
+		}
+	}
+	possible = {
+		has_authority = auth_corporate
+		has_valid_civic = civic_yfm_educational_institutions
+		OR = {
+			has_ethic = ethic_militarist
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+	weight = {
+		base = 1400
 	}
 }

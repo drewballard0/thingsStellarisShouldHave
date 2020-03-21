@@ -29,7 +29,11 @@ gov_yfm_megarestaurant_desc:0 "A galactic-scale restaurant chain that specialize
 gov_yfm_drug_cartel:0 "Drug Cartel"
 gov_yfm_drug_cartel_desc:0 "A galactic-scale drug cartel, slinging their stuff under the noses of the authorities."
 
+gov_yfm_performance_troupe:0 "Performance Troupe"
+gov_yfm_performance_troupe_desc:0 "This megacorporation prides itself on providing only the best entertainment throughout the galaxy."
 
+gov_yfm_military_academy:0 "Military Mega-academy"
+gov_yfm_military_academy_desc:0 "This megaschool is the premier in education for future military officers galaxy-wide."
 
 #######################################
 ### Megacorp Expansion Ruler Titles ###
@@ -38,6 +42,8 @@ gov_yfm_drug_cartel_desc:0 "A galactic-scale drug cartel, slinging their stuff u
 RT_YFM_EXECUTIVE_CHEF:0 "Executive Chef"
 RT_YFM_HEADMASTER:0 "Headmaster"
 RT_YFM_HEADMISTRESS:0 "Headmistress"
+RT_YFM_PRODUCER:0 "Producer"
+RT_EDUCATOR_GENERAL:0 "Educator-General"
 
 ####################################
 ### Megacorp Expansion Buildings ###
